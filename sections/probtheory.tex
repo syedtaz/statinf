@@ -1,0 +1,34 @@
+\documentclass[/Users/ssaad/Documents/statinf/main.tex]{subfiles}
+
+\begin{document}
+
+    \section{Probability Theory}
+
+    \begin{theorem}
+        Given a sample space $\mathcal{S}$ and an associated $\sigma$-algebra $\mathcal{B}$, a probability function is a function $P$ with domain $\mathcal{B}$ that satisfies
+        \begin{enumerate}
+            \item $P(A) \geq 0$ for all $A \in \mathcal{B}$
+            \item $P(\mathcal{S})=1$
+            \item if $A_{1},A_{2},\dots \in \mathcal{B}$ are pairwise disjoint, then $P(\bigcup_{i=1}^{\infty}A_{i})=\Sigma_{i=1}^{\infty}P(A_{i})$.
+        \end{enumerate}
+    \end{theorem}
+    
+    \section{Random Variables}
+
+    \begin{definition}[Random Variable]
+        A \textbf{random variable} is a function from a sample space $\mathcal{S}$ into the real numbers.
+    \end{definition}
+
+    Assume we have a sample space $S=\{s_{1},\dots,s_{n}\}$ with a probability function $P$. We can define a random variable $X$ with range $\mathcal{X}=\{x_{1},\dots,x_{m}\}$. 
+    We can define a probability function $P_{x}$ on $\mathcal{X}$ in the following way: $X=x_{i}$ if and only if the outcome of the random experiment is an
+    $s_{j} \in \mathcal{S}$ such that $X(s_{j})=x_{i}$. 
+
+    \[P_{X}(X=x_{i})=P(\{s_{j} \in \mathcal{S}: X(s_{j})=x_{i}\})\]
+
+    $P_{X}$ is the induced probability function on $\mathcal{X}$, defined in terms of the original function $P$. We can show that the induced probability function 
+    satisfies the Kolmogorov axioms.
+
+    \begin{proof}
+        Wtf
+    \end{proof}
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass{book}
+\usepackage{subfiles, amsmath, amsthm, amssymb}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+
+\begin{document}
+    \title{Statistical Inference Notes}
+    \author{Tazmilur Saad}
+
+    \maketitle
+
+    \clearpage
+    \begin{center}
+        \thispagestyle{empty}
+        \vspace*{\fill}
+        My notes based entirely on the book \textit{Statistical Inference} written by George Casella and Roger L. Berger.
+        \vspace*{\fill}
+    \end{center}
+    \clearpage
+    
+    \tableofcontents
+
+    \chapter{Probability Theory}
+
+    \subfile{sections/probtheory.tex}
+
+
+
+\end{document}
